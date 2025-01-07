@@ -1,8 +1,38 @@
-# React + Vite
+My Portfolio
+This project showcases my skills, projects, and contact information as a web developer. It is built using React and Vite, and deployed on Netlify.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo
+Check out the live version of my portfolio:
+👉 https://677ca9330d4779cebd9aac8d--montyportfolio.netlify.app/
 
-Currently, two official plugins are available:
+Features
+About Me: A brief introduction about myself, including my avatar and bio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Portfolio: A collection of my projects with images, titles, and links to both the deployed applications and their GitHub repositories.
+
+Contact: A contact form with validation for name, email, and message fields.
+
+Resume: A downloadable resume and a list of my technical proficiencies.
+
+Footer: Links to my GitHub, LinkedIn, and Stack Overflow profiles.
+
+Technologies Used
+Frontend:
+
+React
+
+Vite
+
+React Router (for navigation)
+
+React Icons (for footer icons)
+
+Styling:
+
+CSS (custom styles)
+
+Deployment:
+
+Netlify
+
+GitHub: montygracey
