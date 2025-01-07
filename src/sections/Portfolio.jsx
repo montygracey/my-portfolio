@@ -1,9 +1,15 @@
-import Project from '../components/Project';
+import React from 'react';
+import projectGif from '../assets/images/project.gif'; 
 
 const Portfolio = () => {
   const projects = [
-    { title: 'Project 1', image: 'path/to/image1.jpg', deployedLink: '#', githubLink: '#' },
-    // I will add more projects here
+    {
+      title: 'D&D Monster Search',
+      image: projectGif,
+      deployed: 'https://montygracey.github.io/dnd-monster-search/',
+      github: 'https://github.com/montygracey/dnd-monster-search.git',
+    },
+    
   ];
 
   return (
@@ -11,7 +17,18 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="projects">
         {projects.map((project, index) => (
-          <Project key={index} {...project} />
+          <div key={index} className="project">
+            <h3>{project.title}</h3>
+            <img src={project.image} alt={`${project.title} Demo`} className="project-image" />
+            <div className="project-links">
+              <a href={project.deployed} target="_blank" rel="noopener noreferrer">
+                Deployed Application
+              </a>
+              <a href={project.github} target="_blank" rel="noopener noreferrer">
+                GitHub Repository
+              </a>
+            </div>
+          </div>
         ))}
       </div>
     </section>

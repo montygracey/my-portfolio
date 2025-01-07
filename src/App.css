@@ -252,3 +252,48 @@ button:hover {
     margin-bottom: 1rem; 
   }
 }
+
+#portfolio {
+  padding: 2rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; 
+  justify-content: center; 
+}
+
+.project {
+  background-color: rgba(255, 255, 255, 0.9); 
+  border: 2px solid #000; 
+  border-radius: 8px; 
+  padding: 1rem;
+  max-width: 300px; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.project-image {
+  width: 100%; 
+  border-radius: 8px; 
+  border: 2px solid #000; 
+}
+
+.project-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; 
+}
+
+.project-links a {
+  color: #920159; 
+  text-decoration: none; 
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+  color: #4F0000; 
+}
